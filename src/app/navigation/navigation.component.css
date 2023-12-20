@@ -1,4 +1,3 @@
-/* Apply flex-direction: column for smaller screens */
 nav {
   display: flex;
   flex-direction: column;
@@ -9,9 +8,8 @@ nav {
   padding: 10px;
 }
 
-/* Hide the navigation links by default */
 nav a {
-  display: none;
+  display: block;
   width: 100%;
   padding: 10px;
   color: white;
@@ -21,14 +19,6 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-/* Hover effect for navigation links */
 nav a:hover {
   background-color: gray;
-}
-
-/* Media query to show/hide navigation links based on screen size */
-@media screen and (min-width: 600px) {
-  nav a {
-    display: block;
-  }
 }
