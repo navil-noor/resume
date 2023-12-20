@@ -10,11 +10,12 @@ nav {
 
 nav a {
   display: block;
-  margin: 5px 0;
-  padding: 8px;
+  width: 100%;
+  padding: 10px;
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  margin-bottom: 5px;
   transition: background-color 0.3s ease;
 }
 
