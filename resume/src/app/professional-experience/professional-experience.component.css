@@ -1,0 +1,13 @@
+.turquoise-text {
+    color: Turquoise;
+    filter: brightness(50%);
+  }
+
+
+section {
+  text-align: left;
+}
+
+section div {
+  margin-bottom: 50px;
+}
